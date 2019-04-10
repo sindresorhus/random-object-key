@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save random-obj-key
+$ npm install random-obj-key
 ```
 
 
 ## Usage
 
 ```js
-var randomObjKey = require('random-obj-key');
+const randomObjKey = require('random-obj-key');
 
 randomObjKey({foo: true, bar: true});
 //=> 'bar'
