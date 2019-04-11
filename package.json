@@ -20,12 +20,10 @@
 		"index.d.ts"
 	],
 	"keywords": [
-		"rand",
 		"random",
 		"randomize",
 		"math",
 		"object",
-		"obj",
 		"key",
 		"pick",
 		"select",
@@ -33,7 +31,7 @@
 	],
 	"devDependencies": {
 		"ava": "^1.4.1",
-		"stable-fn": "^1.0.0",
+		"stable-fn": "^2.0.0",
 		"tsd": "^0.7.2",
 		"xo": "^0.24.0"
 	}
