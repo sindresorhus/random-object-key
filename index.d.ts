@@ -9,7 +9,7 @@ randomObjKey({foo: true, bar: true});
 //=> 'bar'
 ```
 */
-declare function randomObjKey<ObjectType extends {[key: string]: unknown}>(
+declare function randomObjKey<ObjectType extends {[key: string]: any}>(
 	object: ObjectType
 ): keyof ObjectType;
 
