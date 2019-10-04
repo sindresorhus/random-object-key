@@ -13,9 +13,9 @@ $ npm install random-obj-key
 ## Usage
 
 ```js
-const randomObjKey = require('random-obj-key');
+const randomObjectKey = require('random-obj-key');
 
-randomObjKey({foo: true, bar: true});
+randomObjectKey({foo: true, bar: true});
 //=> 'bar'
 ```
 
@@ -29,8 +29,3 @@ randomObjKey({foo: true, bar: true});
 - [unique-random](https://github.com/sindresorhus/unique-random) - Generate random numbers that are consecutively unique
 - [unique-random-array](https://github.com/sindresorhus/unique-random-array) - Get consecutively unique elements from an array
 - [crypto-random-string](https://github.com/sindresorhus/crypto-random-string) - Generate a cryptographically strong random string
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

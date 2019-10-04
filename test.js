@@ -1,6 +1,6 @@
 import test from 'ava';
 import stableFn from 'stable-fn';
-import randomObjKey from '.';
+import randomObjectKey from '.';
 
 const fixture = {
 	a: true,
@@ -11,9 +11,9 @@ const fixture = {
 };
 
 test('main', t => {
-	t.false(stableFn(() => randomObjKey(fixture)));
+	t.false(stableFn(() => randomObjectKey(fixture)));
 
 	for (let i = 0; i < 1000; i++) {
-		t.is(typeof randomObjKey(fixture), 'string');
+		t.is(typeof randomObjectKey(fixture), 'string');
 	}
 });
