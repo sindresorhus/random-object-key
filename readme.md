@@ -1,4 +1,4 @@
-# random-obj-key [![Build Status](https://travis-ci.org/sindresorhus/random-obj-key.svg?branch=master)](https://travis-ci.org/sindresorhus/random-obj-key)
+# random-obj-key
 
 > Get a random key from an object
 
