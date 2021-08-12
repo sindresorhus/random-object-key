@@ -4,13 +4,16 @@
 	"description": "Get a random key from an object",
 	"license": "MIT",
 	"repository": "sindresorhus/random-obj-key",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
+	"exports": "./index.js",
 	"engines": {
-		"node": ">=8"
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
 	},
 	"scripts": {
 		"test": "xo && ava && tsd"
@@ -30,9 +33,9 @@
 		"choice"
 	],
 	"devDependencies": {
-		"ava": "^2.4.0",
-		"stable-fn": "^2.0.0",
-		"tsd": "^0.9.0",
-		"xo": "^0.25.3"
+		"ava": "^3.15.0",
+		"stable-fn": "^3.0.0",
+		"tsd": "^0.17.0",
+		"xo": "^0.44.0"
 	}
 }

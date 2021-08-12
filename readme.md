@@ -2,23 +2,20 @@
 
 > Get a random key from an object
 
-
 ## Install
 
 ```
 $ npm install random-obj-key
 ```
 
-
 ## Usage
 
 ```js
-const randomObjectKey = require('random-obj-key');
+import randomObjectKey from 'random-obj-key';
 
 randomObjectKey({foo: true, bar: true});
 //=> 'bar'
 ```
-
 
 ## Related
 

@@ -1,19 +1,19 @@
 import test from 'ava';
-import stableFn from 'stable-fn';
-import randomObjectKey from '.';
+import stableFunction from 'stable-fn';
+import randomObjectKey from './index.js';
 
 const fixture = {
 	a: true,
 	b: true,
 	c: true,
 	d: true,
-	e: true
+	e: true,
 };
 
 test('main', t => {
-	t.false(stableFn(() => randomObjectKey(fixture)));
+	t.false(stableFunction(() => randomObjectKey(fixture)));
 
-	for (let i = 0; i < 1000; i++) {
+	for (let index = 0; index < 1000; index++) {
 		t.is(typeof randomObjectKey(fixture), 'string');
 	}
 });
