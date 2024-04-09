@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install random-obj-key
+```sh
+npm install random-obj-key
 ```
 
 ## Usage
