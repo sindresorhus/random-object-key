@@ -1,9 +1,9 @@
 {
-	"name": "random-obj-key",
+	"name": "random-object-key",
 	"version": "3.0.0",
 	"description": "Get a random key from an object",
 	"license": "MIT",
-	"repository": "sindresorhus/random-obj-key",
+	"repository": "sindresorhus/random-object-key",
 	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",

@@ -1,17 +1,17 @@
-# random-obj-key
+# random-object-key
 
 > Get a random key from an object
 
 ## Install
 
 ```sh
-npm install random-obj-key
+npm install random-object-key
 ```
 
 ## Usage
 
 ```js
-import randomObjectKey from 'random-obj-key';
+import randomObjectKey from 'random-object-key';
 
 randomObjectKey({foo: true, bar: true});
 //=> 'bar'
